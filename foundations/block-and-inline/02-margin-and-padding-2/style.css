@@ -1,27 +1,47 @@
+* {
+  font-size: 16px;
+}
 body {
   background: #eee;
   font-family: sans-serif;
+  
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  text-align: left;
+  font-weight: 600;
+  padding: 10px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 5px;
+  
 }
 
 .content {
   background: #e3f4ff;
+  padding: 5px; 
+  margin: 20px 0;
+  
+  
 }
 
 .button-container {
   background: #e3f4ff;
+  justify-content: center;
+  text-align:center;
+  justify-content: space-around;
+  font-weight: 100;
+  padding: 1px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+ 
+  
 }
